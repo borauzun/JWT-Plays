@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>nmfs</groupId>
+  <artifactId>JWT-Plays</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  
+<!-- nimbus-jose-jwt -->
+<dependency>
+    <groupId>com.nimbusds</groupId>
+    <artifactId>nimbus-jose-jwt</artifactId>
+    <version>6.0</version>
+</dependency>
+<!-- eddsa eddsa2-->
+<dependency>
+    <groupId>net.i2p.crypto</groupId>
+    <artifactId>eddsa</artifactId>
+    <version>0.3.0</version>
+</dependency>
+  </dependencies>
+</project>
